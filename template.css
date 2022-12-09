@@ -1,0 +1,147 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .header {
+    background-color: rgb(167, 14, 14);
+    color: #fff;
+  }
+  
+  .header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .a {
+    display: flex;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    justify-content: center;
+  }
+  
+  .a1 {
+    padding: 12px 24px;
+  }
+  
+  .a1:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .search:hover {
+    background-color: red;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  i {
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ccc;
+  }
+  .contain {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .item {
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  img {
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  body {
+    background-color: rgb(131, 5, 5);
+  }
+  .container1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    flex-direction: row;
+    
+  }
+  .container1 .card {
+    position: relative;
+    max-width: 330px;
+    height: 270px;
+    background-color: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px rgba(0, 0, 0, 0, 5);
+    transition: 0, 3s ease-in-out;
+  }
+  .container1 .card:hover {
+    height: 600px;
+  }
+  .container1 .card .imga {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  .container1 .card .imga img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  .container1 .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .container1 .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition: delay 0.3s;
+  }
+  p {
+    color: #111;
+  }
+  .wiki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
